@@ -85,8 +85,6 @@ def main():
             elif 'error' in result_json:
                 st.error("ERROR: Could not generate valid SQL for this question")
                 st.write(result_json['error'])
-            elif 'KI MUMMI' in result_json:
-                st.write("Ronit KI mummi")
 
 
 if __name__ == "__main__":
